@@ -1,0 +1,53 @@
+
+
+/* 46 */
+
+.content table{
+    width: 100%;
+}
+.errors ul{
+    list-style: none;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.errors ul{
+    background-color: palevioletred;
+}
+.content table tr td , .content table tr th{
+    border: 1px solid #555;
+    padding: 50px;
+    text-align: center;
+}
+
+.content td a{
+    margin: 0 5px;
+}
+.content input, .content select, .content textarea{
+    border: solid 1px #555;
+    padding: 5px 8px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.content input[type=submit]{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.content input[type=submit]:hover{
+    background-color: #555;
+}
+
+nav ul:last-child{
+    float:right;
+}
+
+
+
+
+
+
+

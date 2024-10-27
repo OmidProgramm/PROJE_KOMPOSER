@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+main{
+
+    width: 300px;
+    
+    margin: 0 auto;
+    background-color: #dddddd;
+}
+h3{
+    text-align: center;
+    height: 30px;
+    padding: 10px 0;
+    margin-top: 10px;
+    border: solid 0 black;
+    font-size: 20px;
+    background-color: #f38b8b;
+}
+.errors ul{
+    list-style: none;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+main form label[for='email']{
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: solid 0 black; 
+    background-color: white;
+}
+main form #email{
+    width: 70%;
+    border: solid 1px black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+main form label[for='password']{
+    width: 250px;
+    margin: 5px auto;
+    border: solid 0 black; 
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: white;
+}
+main form #password{
+    width: 65%;
+    border: solid 1px black;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+main form input[type="submit"]{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: powderblue;
+    width: 200px;
+    height: 30px;
+    padding: 5px 0 10px 0;
+    border: solid 0 black;
+    font-size: 20px;
+}
+main div li .homing{
+    list-style: none;
+    background-color: #f38b8b;
+}
